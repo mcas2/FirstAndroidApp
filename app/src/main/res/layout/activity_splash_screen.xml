@@ -16,12 +16,18 @@
         android:alpha="0.6"
         />
 
+    <ImageView
+        android:id="@+id/splashGlideBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/splashGlH1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.15"
+        app:layout_constraintGuide_percent="0.10"
         />
 
     <ImageView
