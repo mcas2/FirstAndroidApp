@@ -33,7 +33,6 @@ public class SplashScreen extends AppCompatActivity {
 
         launchMain();
 
-
         Animation gradientColor = AnimationUtils.loadAnimation(this, R.anim.gradient_colour);
         ImageView splashLogo = findViewById(R.id.splashLogo);
         TextView splashAppName = findViewById(R.id.splashAppName);
