@@ -17,6 +17,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+import com.google.android.material.color.DynamicColors;
 
 public class SplashScreen extends AppCompatActivity {
 

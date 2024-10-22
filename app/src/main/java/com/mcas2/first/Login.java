@@ -12,6 +12,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.color.DynamicColors;
+
 import org.w3c.dom.Text;
 
 public class Login extends AppCompatActivity {
@@ -20,6 +22,8 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //DynamicColors.applyToActivitiesIfAvailable(this.getApplication());
+
 
         Button loginButton = findViewById(R.id.loginButton);
         TextView loginRegisterText = findViewById(R.id.loginRegisterText);
